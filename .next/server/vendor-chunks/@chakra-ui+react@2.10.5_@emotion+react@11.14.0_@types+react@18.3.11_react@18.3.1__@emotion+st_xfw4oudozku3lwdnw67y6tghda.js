@@ -2785,9 +2785,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/.pnpm/next@14.2.23_@babel+core@7.26.7_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/luis/Dev/saas/node_modules/.pnpm/@chakra-ui+react@2.10.5_@emotion+react@11.14.0_@types+react@18.3.11_react@18.3.1__@emotion+st_xfw4oudozku3lwdnw67y6tghda/node_modules/@chakra-ui/react/dist/esm/color-mode/color-mode-script.mjs#ColorModeScript`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/luis/Dev/77website/node_modules/.pnpm/@chakra-ui+react@2.10.5_@emotion+react@11.14.0_@types+react@18.3.11_react@18.3.1__@emotion+st_xfw4oudozku3lwdnw67y6tghda/node_modules/@chakra-ui/react/dist/esm/color-mode/color-mode-script.mjs#ColorModeScript`);
 
-const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/luis/Dev/saas/node_modules/.pnpm/@chakra-ui+react@2.10.5_@emotion+react@11.14.0_@types+react@18.3.11_react@18.3.1__@emotion+st_xfw4oudozku3lwdnw67y6tghda/node_modules/@chakra-ui/react/dist/esm/color-mode/color-mode-script.mjs#getScriptSrc`);
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/luis/Dev/77website/node_modules/.pnpm/@chakra-ui+react@2.10.5_@emotion+react@11.14.0_@types+react@18.3.11_react@18.3.1__@emotion+st_xfw4oudozku3lwdnw67y6tghda/node_modules/@chakra-ui/react/dist/esm/color-mode/color-mode-script.mjs#getScriptSrc`);
 
 
 /***/ })

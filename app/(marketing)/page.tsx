@@ -17,7 +17,7 @@ import {
   useClipboard,
 } from '@chakra-ui/react'
 import { Br, Link } from '@saas-ui/react'
-import type { Metadata, NextPage } from 'next'
+import type { NextPage } from 'next'
 import Image from 'next/image'
 import {
   FiArrowRight,
@@ -60,11 +60,6 @@ import pricing from '#data/pricing'
 import testimonials from '#data/testimonials'
 import clients from '#data/clients'
 import { Clients } from '#components/clients/clients'
-
-export const meta: Metadata = {
-  title: '77 VSL',
-  description: 'Software Factory',
-}
 
 const Home: NextPage = () => {
   return (
