@@ -52,11 +52,9 @@ import {
 } from '#components/highlights'
 import { ChakraLogo, NextjsLogo } from '#components/logos'
 import { FallInPlace } from '#components/motion/fall-in-place'
-import { Pricing } from '#components/pricing/pricing'
 import { Testimonial, Testimonials } from '#components/testimonials'
 import { Em } from '#components/typography'
 import faq from '#data/faq'
-import pricing from '#data/pricing'
 import testimonials from '#data/testimonials'
 import clients from '#data/clients'
 import { Clients } from '#components/clients/clients'
@@ -400,16 +398,6 @@ const TestimonialsSection = () => {
         ))}
       </>
     </Testimonials>
-  )
-}
-
-const PricingSection = () => {
-  return (
-    <Pricing {...pricing}>
-      <Text p="8" textAlign="center" color="muted">
-        VAT may be applicable depending on your location.
-      </Text>
-    </Pricing>
   )
 }
 

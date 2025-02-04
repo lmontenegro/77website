@@ -30,12 +30,7 @@ const siteConfig = {
       },
     ],
   },
-  footer: {
-    
-    links: [
-     {}
-    ],
-  },
+  footer: {},
   signup: {
     title: 'Start building with Saas UI',
     features: [
