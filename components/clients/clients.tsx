@@ -30,12 +30,21 @@ export const Clients = ({ title, clients }: ClientsProps) => {
           justifyItems="center"
         >
           {clients.map((client, index) => (
-            <Box key={index} maxW="150px" opacity={0.8} _hover={{ opacity: 1 }}>
+            <Box 
+              key={index} 
+              maxW="150px" 
+              opacity={1}
+              _hover={{ opacity: 1 }}
+            >
               <Image
                 src={client.logo}
                 alt={client.name}
-                style={{ filter: 'grayscale(100%)' }}
-                _hover={{ filter: 'grayscale(0%)' }}
+                style={{ 
+                  filter: 'brightness(0) invert(1) opacity(0.95) brightness(1.2)'
+                }}
+                _hover={{ 
+                  filter: 'brightness(0) invert(1) opacity(1) brightness(1.4)'
+                }}
                 transition="all 0.2s"
               />
             </Box>

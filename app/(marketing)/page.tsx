@@ -64,13 +64,13 @@ const Home: NextPage = () => {
     <Box>
       <HeroSection />
 
-      <HighlightsSection />
-
-      <FeaturesSection />
-
       <Box py={16}>
         <Clients {...clients} />
       </Box>
+
+      <HighlightsSection />
+
+      <FeaturesSection />
 
       <FaqSection />
     </Box>
