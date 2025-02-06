@@ -1,13 +1,7 @@
-import { NextSeoProps } from 'next-seo'
-import { FiCheck } from 'react-icons/fi'
 import { Logo } from './logo'
 
 const siteConfig = {
   logo: Logo,
-  seo: {
-    title: '77 VSL',
-    description: '2025 - 77 Venture Studio Labs.',
-  } as NextSeoProps,
   header: {
     links: [
       {

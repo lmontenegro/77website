@@ -27,7 +27,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
                 <Box as={siteConfig.logo} flex="1" height="32px" />
               </Flex>
               <Text fontSize="md" color="muted">
-                {siteConfig.seo.description}
+                2025 - 77 Venture Studio Labs.
               </Text>
             </Stack>
           </Stack>

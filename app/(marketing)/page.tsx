@@ -68,6 +68,8 @@ const Home: NextPage = () => {
         <Clients {...clients} />
       </Box>
 
+      <BenefitsSection />
+
       <HighlightsSection />
 
       <FeaturesSection />
@@ -99,12 +101,10 @@ const HeroSection: React.FC = () => {
             }
           >
             <FallInPlace delay={0.8}>
- 
               <ButtonGroup spacing={4} alignItems="center">
                 <ButtonLink colorScheme="primary" size="lg" href="mailto:contacto@77vsl.com?subject=Consulta desde 77VSL&body=Hola, me gustaría obtener más información sobre sus servicios.">
                   Contáctanos
                 </ButtonLink>
-                
               </ButtonGroup>
             </FallInPlace>
           </Hero>
@@ -132,49 +132,53 @@ const HeroSection: React.FC = () => {
           </Box>
         </Stack>
       </Container>
-
-      <Features
-        id="benefits"
-        columns={[1, 2, 4]}
-        iconSize={4}
-        innerWidth="container.xl"
-        pt="20"
-        features={[
-          {
-            title: 'Acesible',
-            icon: FiSmile,
-            description: 'Desarrollamos software pensando en la usabilidad y la experiencia del usuario, asegurando que las aplicaciones sean intuitivas, funcionales y accesibles para todos.',
-            iconPosition: 'left',
-            delay: 0.6,
-          },
-          {
-            title: 'Personalizable',
-            icon: FiSliders,
-            description:
-              'Creamos soluciones tecnológicas adaptadas a tu negocio, con interfaces y funcionalidades totalmente ajustables a tu identidad de marca..',
-            iconPosition: 'left',
-            delay: 0.8,
-          },
-          {
-            title: 'Flexible',
-            icon: FiGrid,
-            description:
-              'Construimos arquitecturas modulares y componibles, permitiendo la integración y evolución de tu software según las necesidades de tu empresa..',
-            iconPosition: 'left',
-            delay: 1,
-          },
-          {
-            title: 'Eficiente',
-            icon: FiThumbsUp,
-            description:
-              'Optimizamos el desarrollo con buenas prácticas, reducción de código repetitivo y herramientas tipadas para acelerar el tiempo de entrega..',
-            iconPosition: 'left',
-            delay: 1.1,
-          },
-        ]}
-        reveal={FallInPlace}
-      />
     </Box>
+  )
+}
+
+const BenefitsSection: React.FC = () => {
+  return (
+    <Features
+      id="benefits"
+      columns={[1, 2, 4]}
+      iconSize={4}
+      innerWidth="container.xl"
+      pt="20"
+      features={[
+        {
+          title: 'Acesible',
+          icon: FiSmile,
+          description: 'Desarrollamos software pensando en la usabilidad y la experiencia del usuario, asegurando que las aplicaciones sean intuitivas, funcionales y accesibles para todos.',
+          iconPosition: 'left',
+          delay: 0.6,
+        },
+        {
+          title: 'Personalizable',
+          icon: FiSliders,
+          description:
+            'Creamos soluciones tecnológicas adaptadas a tu negocio, con interfaces y funcionalidades totalmente ajustables a tu identidad de marca..',
+          iconPosition: 'left',
+          delay: 0.8,
+        },
+        {
+          title: 'Flexible',
+          icon: FiGrid,
+          description:
+            'Construimos arquitecturas modulares y componibles, permitiendo la integración y evolución de tu software según las necesidades de tu empresa..',
+          iconPosition: 'left',
+          delay: 1,
+        },
+        {
+          title: 'Eficiente',
+          icon: FiThumbsUp,
+          description:
+            'Optimizamos el desarrollo con buenas prácticas, reducción de código repetitivo y herramientas tipadas para acelerar el tiempo de entrega..',
+          iconPosition: 'left',
+          delay: 1.1,
+        },
+      ]}
+      reveal={FallInPlace}
+    />
   )
 }
 
